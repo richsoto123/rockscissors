@@ -6,6 +6,7 @@ const paper = "https://i.imgur.com/2gsdqvR.png";
 
 const PlayerCard = (props) => {
     const sign = props.sign;
+    // change to var const cannot be changed
     var image = "";
     
     if (sign === "rock"){
@@ -16,7 +17,7 @@ const PlayerCard = (props) => {
        image = scissors;
     }
     return (
-    <div className="playerCard">
+    <div className="player-card">
       <img src = {image} />     
     </div>
     )
