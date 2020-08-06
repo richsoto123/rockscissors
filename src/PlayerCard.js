@@ -17,7 +17,7 @@ const PlayerCard = (props) => {
        image = scissors;
     }
     return (
-    <div className="player-card">
+    <div className="playerCard">
       <img src = {image} />     
     </div>
     )

@@ -36,8 +36,8 @@ class Game extends Component {
         return (
             <div className="style">
             <div>
-                <PlayerCard sign={this.state.playerOne} />
-                <PlayerCard sign={this.state.playerTwo}/>
+                  <p>Player One</p>  <PlayerCard sign={this.state.playerOne}/>
+                  <p>Player Two</p> <PlayerCard sign={"Playe two",this.state.playerTwo}/>
             </div>
              <div className="winner">{this.decideWinner()}</div>
              <button type="button" onClick={this.playGame}> Play the Game</button>
